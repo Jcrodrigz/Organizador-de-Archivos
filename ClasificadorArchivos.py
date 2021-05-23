@@ -31,7 +31,6 @@ def organize_remaining_files(directory_path):
             dest_path = os.path.join(directory_path, "Otros", file)
             shutil.move(src_path, dest_path)
 
-
 def organize_remaining_folders(directories, directory_path):
     list_dir = os.listdir(directory_path)
     organized_folders = []
